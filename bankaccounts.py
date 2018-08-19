@@ -1,4 +1,5 @@
 #vars () = retrieves all properties from a class
+##git add . = allows current working directory to work through git hub
 
 
 class Account(object):
