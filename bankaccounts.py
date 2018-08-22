@@ -7,11 +7,11 @@ class Account(object):
         self.name = name
         self.balance = balance
 
-    def deposit(self, balance):
-        self.balance = self.balance + balance
+    def deposit(self, amount):
+        self.balance = self.balance + amount
 
-    def withdrawal(self, balance):
-        self.balance = self.balance - balance
+    def withdrawal(self, amount):
+        self.balance = self.balance - amount
 
 John = Account("John", 500)
 print John.name
@@ -21,6 +21,9 @@ John.deposit(1000)
 
 print John.balance
 
+John.withdrawal(50)
+'''
 John.withdrawal(1500)
 
 print John.balance
+'''
